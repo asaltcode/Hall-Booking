@@ -1,5 +1,15 @@
-const homePage = (req, res)=>{
-   res.status(200).send("Hi This Home Page")
-}
+const homePage = (req, res) => {
+  res.status(200).send(`
+   <div>
+   <h1>Welcome to My Hall Booking API</h1>
+   <pre>
+       Get all Rooms = endpoint: /rooms
+       New Hall Booking = endpoint/:id
+       Take a list of Booked rooms = endpoint: /Rooms/customer
+       Create a new room = endpoint: /rooms/
+   </pre>
+</div>
+   `);
+};
 
-export default {homePage}
+export default { homePage };
