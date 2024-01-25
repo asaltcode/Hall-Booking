@@ -5,7 +5,7 @@ const homePage = (req, res) => {
    <pre>
        Get all Rooms = endpoint: /rooms
        New Hall Booking = endpoint/:id
-       Take a list of Booked rooms = endpoint: /Rooms/customer
+       Take a list of Booked rooms = endpoint: /rooms/customer
        Create a new room = endpoint: /rooms/
    </pre>
 </div>
